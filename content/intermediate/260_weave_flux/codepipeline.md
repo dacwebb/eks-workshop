@@ -60,6 +60,10 @@ git commit -am "Initial commit"
 git push 
 ```
 
+{{% notice tip %}}
+If you are prompted for a username and password when running git push, enter your github username and for the password enter the Personal Access Token from your GitHub account created in the steps from [GitHub SetUp](https://www.eksworkshop.com/intermediate/260_weave_flux/githubsetup/).
+{{% /notice %}}
+
 In the [CodePipeline console](https://console.aws.amazon.com/codesuite/codepipeline/pipelines) go to the details page for the specific CodePipeline.  You can see status along with links to the change and build details. 
 
 ![CodePipeline Details](/images/weave_flux/codepipeline_details.png)
